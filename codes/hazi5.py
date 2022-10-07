@@ -15,7 +15,7 @@ def hazi5():
         def __eq__(self, uj_dolgozo):
             if self._munka == uj_dolgozo._munka:
                 return "\n" + self._nev + " és " + uj_dolgozo._nev + " dolgoznak egy projekten."
-            # return ""
+            return ""
 
 # tesztek
     dolgozok = [Team("Ricsi", "SolArch", "Frontend"), Team("Angéla", "ZerTeng", "Tesztelő"), Team("Peti", "KefERP", "Backend"), Team("Éva", "KefERP", "Frontend")]
